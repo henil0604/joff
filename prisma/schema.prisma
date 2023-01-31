@@ -49,9 +49,6 @@ model User {
     image         String?
     accounts      Account[]
     sessions      Session[]
-    anonymous     Boolean   @default(false)
-    rooms         Room[]
-    chats         Chat[]
     createdAt     DateTime? @default(now())
 }
 
