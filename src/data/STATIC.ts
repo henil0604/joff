@@ -1,0 +1,1 @@
+export const ANONYMOUS_USER_AVATAR = "/img/anonymous_user.png";
